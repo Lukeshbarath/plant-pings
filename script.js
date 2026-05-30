@@ -26,7 +26,13 @@ const messages = ["I promise the rest of the day is going to be nicer",
                 "it's okayyy, I see youu. And as always, I like what I see.",
                 "You're really talking to a plant.",
                 "Saying boo boo baa baaa out loud three times brightens your day.",
-                "Water, drink waterrrr."]
+                "Water, drink waterrrr.",
+                "You’re doing better than your brain is admitting.",
+                "Congratulations. You found another sentence.",
+                "The council has decided you deserve a soft day. Everyday.",
+                "The plant says hi. I say hiiii.",
+                "Applauseee. If you can't hear it, let me know, I'll call and clap",
+                "Hydration reminder. Come on, a PLANT is telling you to drink water."]
 
 
 var idx = Math.floor(Math.random() * messages.length)

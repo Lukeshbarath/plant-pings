@@ -1,0 +1,33 @@
+const messages = ["I promise the rest of the day is going to be nicer",
+                "Reminder to be kinder to yourself",
+                "If you just wanted to receive nice things, you could've texted me.",
+                "It's okay to take a break, rest is productive too",
+                "You've got this, eventually, probably.",
+                "I hope something makes you laugh today and you tell me about it",
+                "The universe cooked and smirked when it made you, you'll get through this",
+                "Drink water btw, the bottle has been really lonely",
+                "You are being thought of, fondly.",
+                "Breathe, you'll get this done. you just have to let yourself do it without criticism",
+                "I don't think you've achieved the smile count for today, say eeeeeee.",
+                "You're supposed to get me a chocolate if you see this. No cheating.",
+                "You tapped again. Awww",
+                "You have the energy of a cat running on caffeine. I love that.",
+                "You make ordinary feel nice.",
+                "A pigeon somewhere is rooting for you. And another one is shitting on a car at the same time.",
+                "You could help the world by smiling more. And me.",
+                "This plant is emotionally intelligent, but still, it can't make jokes like me",
+                "This is a drum roll. Imagine it. Deal with the no sound.",
+                "Awww, did you like tapping this?",
+                "In case you forgot, I'm funny. Seriously.",
+                "Sit up please, your neck will thank you.",
+                "Your cat is not the only one missing you right now.",
+                "Hey you, the plant asks you how you're doing. It is actually interested btw.",
+                "You should get yourself a chocolate. And probably me too.",
+                "it's okayyy, I see youu. And as always, I like what I see.",
+                "You're really talking to a plant.",
+                "Saying boo boo baa baaa out loud three times brightens your day.",
+                "Water, drink waterrrr."]
+
+
+var idx = Math.floor(Math.random() * messages.length)
+document.getElementById("message").textContent = messages[idx];

@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #f3adbe;
+    font-family: sans-serif;
+}
+
+.card {
+    background: #f8edd8;
+    padding: 2rem;
+    border-radius: 20px;
+    max-width: 400px;
+    width: 80%;
+    text-align: center;
+    line-height: 1.6;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.footer {
+    position: absolute;
+    bottom: 12px;
+
+    font-size: 0.85rem;
+    color: #6b7280;
+
+    opacity: 0.8;
+}

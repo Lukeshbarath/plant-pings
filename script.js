@@ -35,4 +35,4 @@ const messages = ["I promise the rest of the day is going to be nicer",
 
 
 var idx = Math.floor(Math.random() * messages.length)
-document.getElementById("message").textContent = messages[idx];
+document.getElementById("message").textContent = "It's okayyyy, Breatheee, You already had a very long dayyy and you're still working (with a frustrating setup btw), take a deep breathe, drink water, (and probably close that laptop because you've done more than enough) Inumm konjam neram and maja sleep onlyy. I'm super proud that you're hardworking, but you have to take care of yourself tooo, and I'm here to remindd. Both Luke and Luna are worried and want you to rest upp. So rest uppp and rise and get that shit done tomorowww."

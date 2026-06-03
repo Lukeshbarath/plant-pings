@@ -30,7 +30,8 @@ const messages = ["I promise the rest of the day is going to be nicer",
                 "Applauseee. If you can't hear it, let me know, I'll call and clap",
                 "Hydration reminder. Come on, a PLANT is telling you to drink water.",
                 "May the force be with you.",
-                "Reminder that your lower back exists and you should probably pay attention to it."]
+                "Reminder that your lower back exists and you should probably pay attention to it.",
+                "You make everything softer. And you deserve softness too"]
 
 
 var idx = Math.floor(Math.random() * messages.length)
